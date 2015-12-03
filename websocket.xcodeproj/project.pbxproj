@@ -12,6 +12,7 @@
 		0661F7F61C0A907900E05841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0661F7F41C0A907900E05841 /* Main.storyboard */; };
 		0661F7F81C0A907900E05841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0661F7F71C0A907900E05841 /* Assets.xcassets */; };
 		0661F7FB1C0A907900E05841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0661F7F91C0A907900E05841 /* LaunchScreen.storyboard */; };
+		0661F8041C0A90CC00E05841 /* Websocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0661F8031C0A90CC00E05841 /* Websocket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0661F7F71C0A907900E05841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0661F7FA1C0A907900E05841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0661F7FC1C0A907900E05841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0661F8031C0A90CC00E05841 /* Websocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Websocket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		0661F7EF1C0A907900E05841 /* websocket */ = {
 			isa = PBXGroup;
 			children = (
+				0661F8021C0A90AE00E05841 /* SocketIOClientSwift */,
 				0661F7F01C0A907900E05841 /* AppDelegate.swift */,
 				0661F7F21C0A907900E05841 /* ViewController.swift */,
 				0661F7F41C0A907900E05841 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				0661F7FC1C0A907900E05841 /* Info.plist */,
 			);
 			path = websocket;
+			sourceTree = "<group>";
+		};
+		0661F8021C0A90AE00E05841 /* SocketIOClientSwift */ = {
+			isa = PBXGroup;
+			children = (
+				0661F8031C0A90CC00E05841 /* Websocket.swift */,
+			);
+			name = SocketIOClientSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0661F7F31C0A907900E05841 /* ViewController.swift in Sources */,
+				0661F8041C0A90CC00E05841 /* Websocket.swift in Sources */,
 				0661F7F11C0A907900E05841 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
